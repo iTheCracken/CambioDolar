@@ -1,0 +1,16 @@
+{
+  "name": "libmoneda",
+  "version": "1.0.0",
+  "description": "Librería creada con ayuda de Axios y el API Fixer.io para la conversión de valores en USD a MXN y viceversa.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "José Antonio Covarrubias Peralta <jcovarrubiasp_halo3@hotmail.com> (Cracken)",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {
+    "axios": "^0.18.0",
+    "casual": "^1.5.19"
+  }
+}
