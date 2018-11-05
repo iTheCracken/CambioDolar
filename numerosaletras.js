@@ -165,10 +165,6 @@ numeroALetras(500.34, {
 
 module.exports = {
     convertir(value) {
-        return new Promise(resolve => {
-            setTimeout(() => {
-                resolve(numeroALetras(value));
-            }, 5000);
-        });
+        return (numeroALetras(value));
     }
 };
